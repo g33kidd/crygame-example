@@ -1,13 +1,11 @@
 require "crygame"
 
-# Initialize CryGame's engine
-# No default params
-game = CryGame::Engine.new
+window = CryGame::Window.new("Game Engine", 800, 600)
 
-game.update do
-  puts "something"
+while window.open?
+  window.clear
+
+  GL.clear_color(0.0, 0.0, 0.0, 1.0)
+
+  window.update
 end
-
-# Start the game
-game.start
-puts "game end"
