@@ -1,0 +1,8 @@
+name: gameTest
+version: 0.1.0
+
+dependencies:
+  crygame:
+    path: /Users/g33kidd/Developer/sandbox/crygame
+
+license: MIT
